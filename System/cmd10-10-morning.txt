@@ -1,0 +1,32 @@
+ 1210  clear
+ 1211  cd Foundations/System/
+ 1212  vi threadtest.c
+ 1213  cc threadtest.c -o run -lpthread
+ 1214  ./run 
+ 1215  vi threadtest.c
+ 1216  cc threadtest.c -o run -lpthread
+ 1217  ./run 
+ 1218  vi threadtest.c
+ 1219  man pthread_create
+ 1220  vi threadtest.c
+ 1221  cc threadtest.c -o run -lpthread
+ 1222  ./run 
+ 1223  vi threadtest.c
+ 1224  cc threadtest.c -o run -lpthread
+ 1225  ./run 
+ 1226  vi threadtest.c
+ 1227  man pthread_create
+ 1228  vi threadtest.c
+ 1229  man pthread_join
+ 1230  cp threadtest.c mutextest.c
+ 1231  vi mutextest.c
+ 1232  cc mutextest.c -o run -lpthread
+ 1233  ./run 
+ 1234  vi mutextest.c
+ 1235  cc mutextest.c -o run -lpthread
+ 1236  ./run 
+ 1237  vi mutextest.c
+ 1238  cc mutextest.c -o run -lpthread
+ 1239  ./run 
+ 1240  vi mutextest.c
+ 1241  history >cmd10-10-morning.txt 
